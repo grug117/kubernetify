@@ -1,1 +1,1 @@
-from kubernetify import kubernetify
+from kubernetify.kubernetify import kubernetify
