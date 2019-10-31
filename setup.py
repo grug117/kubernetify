@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'kubernetify',         # How you named your package folder (MyLib)
   packages = ['kubernetify'],   # Chose the same as "name"
-  version = '0.2',      # Start with a small number and increase it with every change you make
+  version = '0.3',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'takes a string and kubernetifies it',   # Give a short description about your library
   author = 'Greg Ford',                   # Type in your name
   author_email = 'gregford117@live.com',      # Type in your E-Mail
   url = 'https://github.com/gregford117/kubernetify',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/gregford117/kubernetify/archive/0.2.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/gregford117/kubernetify/archive/0.3.tar.gz',    # I explain this later on
   keywords = ['KUBERNETES', 'KUBERNETIFY'],   # Keywords that define your package best
   install_requires=[],
   classifiers=[
