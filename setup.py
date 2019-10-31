@@ -9,7 +9,6 @@ setup(
   version = '0.3',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'takes a string and kubernetifies it',   # Give a short description about your library
-  :x
   author = 'Greg Ford',                   # Type in your name
   author_email = 'gregford117@live.com',      # Type in your E-Mail
   url = 'https://github.com/gregford117/kubernetify',   # Provide either the link to your github or to your website
