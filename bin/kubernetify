@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+
+from kubernetify.kubernetify import kubernetify
+import sys
+
+if not sys.stdin.isatty():
+    sys.stdout.write(kubernetify(sys.stdin.read()))
+else:
+    try:
+        print(kubernetify(sys.argv[1]))
+    except IndexError:
+        print()
