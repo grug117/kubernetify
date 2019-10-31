@@ -1,7 +1,19 @@
 # Kubernetify
 
-## Whatt is Kubernetify?
-Kubernetify is a simple python package that allows you to kubernetify any given string.
-Like this!
-***Before***: `Hey this is my Kubernetify string`  
-***After***: `H1y t2s is my K9y s4g`
+## What is Kubernetify?
+T2y g6t p5e e2r.
+They greatest package ever.
+
+If you know Kubernetes, then you will be familiar with the abbreviated nickname K8s.
+
+This simple Python package allows you to quickly Kubernetify any given string.
+
+## How do I use it?
+Simply install the package using pip on your machine, import into your python script and then simply:
+```kubernetify.string("Your given string")```
+
+## How do I contribute?
+Fork this repo, improve **k9y** and submit a pull request.
+
+### Credits
+All credits for this marvelous creation belong to Greg Ford.

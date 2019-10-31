@@ -1,4 +1,4 @@
-def kubernetify(string_to_kubernetify:str):
+def string(string_to_kubernetify:str):
     kubernetified_string = ""
 
     for word in string_to_kubernetify.split(" "):
