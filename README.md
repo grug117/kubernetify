@@ -12,13 +12,19 @@ This simple Python package allows you to quickly Kubernetify any given string.
 Simply install the package using pip on your machine.
 
 Import:
+
 ```import kubernetify```
-or 
+
+or
+
 ```from kubernetify import kubernetify```
 
 Use:
+
 ```kubernetify.kubernetify("Kubernetes")```
+
 or
+
 ```kubernetify("Kubernetes")```
 
 ## How do I contribute?
