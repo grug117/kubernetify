@@ -1,7 +1,8 @@
 Kubernetify
 --------
 
-To use (with caution), simply do::
+repo: https://github.com/gregford117/kubernetify
 
+use ::
     >>> import kubernetify
-    >>> print kubernetify.string("string")
+    >>> print kubernetify.kubernetify("kubernetes")

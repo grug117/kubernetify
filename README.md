@@ -9,11 +9,20 @@ If you know Kubernetes, then you will be familiar with the abbreviated nickname 
 This simple Python package allows you to quickly Kubernetify any given string.
 
 ## How do I use it?
-Simply install the package using pip on your machine, import into your python script and then simply:
-```kubernetify.string("Your given string")```
+Simply install the package using pip on your machine.
+
+Import:
+```import kubernetify```
+or 
+```from kubernetify import kubernetify```
+
+Use:
+```kubernetify.kubernetify("Kubernetes")```
+or
+```kubernetify("Kubernetes")```
 
 ## How do I contribute?
 Fork this repo, improve **k9y** and submit a pull request.
 
 ### Credits
-All credits for this marvelous creation belong to Greg Ford.
+"All credits for this marvelous creation belong to Greg Ford" - Connor Avery
