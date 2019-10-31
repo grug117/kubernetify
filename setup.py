@@ -12,7 +12,7 @@ setup(
   author = 'Greg Ford',                   # Type in your name
   author_email = 'gregford117@live.com',      # Type in your E-Mail
   url = 'https://github.com/gregford117/kubernetify',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/gregford117/kubernetify/archive/1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/gregford117/kubernetify/archive/v_1.tar.gz',    # I explain this later on
   keywords = ['KUBERNETES', 'KUBERNETIFY'],   # Keywords that define your package best
   test_suite='nose.collector',
   tests_require=['nose'],
