@@ -11,21 +11,28 @@ This simple Python package allows you to quickly Kubernetify any given string.
 ## How do I use it?
 Simply install the package using pip on your machine.
 
+### Python
+
 Import:
-
-```import kubernetify```
-
-or
-
-```from kubernetify import kubernetify```
+```
+import kubernetify
+from kubernetify import kubernetify
+```
 
 Use:
+```
+kubernetify.kubernetify("Kubernetes")
+kubernetify("Kubernetes")
+```
 
-```kubernetify.kubernetify("Kubernetes")```
+### CLI
 
-or
-
-```kubernetify("Kubernetes")```
+```
+kubernetify <STRING>
+```
+```
+fortune | kubernetify| cowsay
+```
 
 ## How do I contribute?
 Fork this repo, improve **k9y** and submit a pull request.
