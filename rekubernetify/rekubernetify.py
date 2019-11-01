@@ -29,10 +29,6 @@ def all_possible_words(s4g):
 def unkubernetify(s4g):
     if len(s4g) < 3:
         return s4g
-    #if re.match(r"\w", s4g):
-        #return s4g
-    #if re.match(r"[-!$%^&*()_+|~=`{}\[\]:\";'<>?,.\/]", s4g):
-        #return s4g
     words = all_possible_words(s4g)
     if isinstance(words, list):
         return random.choice(words)
@@ -46,6 +42,6 @@ def convert_sentence(long_string):
         new_words.append(unkubernetify(word))
     return " ".join(new_words)
 
-
-print(convert_sentence(input("Enter Text:")))
+if __name__ == "__main__":
+    print(convert_sentence(input("Enter Text:")))
 
